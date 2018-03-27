@@ -58,6 +58,14 @@ module.exports = {
       {
         test: /apple-chancery-webfont\.(woff|woff2|eot|ttf|otf|svg)$/,
         use: ['file-loader?name=[path][name].[ext]']
+      },
+      {
+        test: /rst\.ttf$/,
+        use: ['file-loader?name=[path][name].[ext]']
+      },
+      {
+        test: /\.cur$/,
+        use: ['file-loader?name=[path][name].[ext]']
       }
     ]
   },

@@ -2,3 +2,7 @@
 // Custom style
 // ==============================
 // You can override the variables in _variables.scss to customize the style
+
+a:hover{color: red; text-decoration: none;}
+*{cursor:url('../cursor/default.cur'), default;}
+a{cursor:url('../cursor/pointer.cur'), pointer;}
